@@ -1,0 +1,17 @@
+{
+  "name": "micro-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm -y",
+    "bootstrap": "pnpm install",
+    "dev:base": "turbo run dev --filter=@base/micro-app --filter=@app/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.12.4"
+  }
+}

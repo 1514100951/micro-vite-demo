@@ -1,0 +1,28 @@
+node_modules/
+.DS_Store
+dist/
+build/
+
+**/node_modules/
+
+# editor config
+.vscode/
+.idea
+*.iml
+*.swp
+*.swo
+
+# istanbul
+coverage
+
+# Logs
+logs
+*.log
+# eslint
+.eslintcache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
